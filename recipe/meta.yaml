@@ -32,7 +32,7 @@ test:
   commands:
     - pip check
   requires:
-    - openai-agents
+    - openai-agents >=0.2.7,<1
     - pip
     - python {{ python_min }}
 
