@@ -1,5 +1,5 @@
 {% set name = "opentelemetry-instrumentation-openai-agents" %}
-{% set version = "0.48.1" %}
+{% set version = "0.48.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/opentelemetry_instrumentation_openai_agents-{{ version }}.tar.gz
-  sha256: bfde836e7be87d007f56466162d3af82d7df87ef5be3e3b04f5311635ef68e75
+  sha256: b63786299abbe40cea9a83b1559f193ccf379322ab4dad3626f20e8282935339
 
 build:
   noarch: python
