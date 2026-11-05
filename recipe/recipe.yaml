@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: opentelemetry-instrumentation-openai-agents
-  version: "0.62.4"
+  version: "0.63.0"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/opentelemetry_instrumentation_openai_agents-${{ version }}.tar.gz
-  sha256: 4217916a05af6d75fda7f45efe9c24f5deb679e0441f9932aea091c752619e65
+  sha256: 197436258f4eb9a785d2fe46bd01169d3b55929a523a10a961733cd47cf0adcb
 
 build:
   number: 0
